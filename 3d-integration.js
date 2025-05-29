@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let kettleModel;
 
   loader.load(
-    "/assets/Red_Elegance_0527062521_texture.glb", // Path to the new GLB model
+    "/assets/Red_Elegance.glb", // Path to the new GLB model
     (gltf) => {
       kettleModel = gltf.scene;
       // Adjust model scale and position as needed
